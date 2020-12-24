@@ -1,0 +1,46 @@
+Task 1:
+
+Expected average total delay in queue for each job type ->  [2.1408804625424893, 0.8912968600703896, 3.0917970321738664]
+Expected overall average job total delay ->  1.476227888414402
+Expected average number in each queue ->  [1.2912811638342632, 1.8740263324870636, 0.10984150223195362, 1.6615012052575735, 0.34931333346232324]
+Expected average number of jobs in the whole system ->  11.558639879101557
+Expected average delay in queue for each station ->  [0.25355761505672536, 0.7823645449852024, 0.02824614293045307, 0.4236931842461254, 0.2530310450895734]
+
+Decision choice: new machine will be added to station 2
+
+
+
+
+Task 2:
+
+32.56950552809044  <-- avg - delay hot food - max -->  64.5834682845614
+4.88970451857305  <-- avg - delay sand - max -->  11.240819692762049
+0.00229217629269623  <-- avg - delay cashier - max -->  0.28422986029433256
+
+144.8042683081556  <-- avg - length hot food - max -->  197
+3.3042672876683072  <-- avg - length sand - max -->  6
+0.0031581095588259175  <-- avg - length cashier - max -->  1
+
+33.08648180631409  <-- avg - delay customer type - max -->  64.5834682845614
+4.88970451857305  <-- avg - delay customer type - max -->  11.240819692762049
+0.012919539104287843  <-- avg - delay customer type - max -->  0.28422986029433256
+
+27.203287099792444  <-- overall avg qdelay
+
+104.59979481696274  <-- avg - num of customer in system - max -->  203
+
+
+
+
+normal-->  28.837730101281036  <-- overall average total delay || total customer served -->  117
+[0, 0, 1]-->  30.154495381981555  <-- overall average total delay || total customer served -->  118
+[1, 0, 0]-->  18.589328853179147  <-- overall average total delay || total customer served -->  178
+[0, 1, 0]-->  18.810416195500625  <-- overall average total delay || total customer served -->  185
+[1, 1, 0]-->  10.481659523339074  <-- overall average total delay || total customer served -->  323
+[1, 0, 1]-->  0.2690746577983836  <-- overall average total delay || total customer served -->  333
+[0, 1, 1]-->  0.2917321664355148  <-- overall average total delay || total customer served -->  306
+[1, 1, 1]-->  0.07013360668506176  <-- overall average total delay || total customer served -->  318
+
+[1, 1, 1]--> min overall average total delay --> 0.07013360668506176
+[1, 0, 1]--> max total customer served   333
+
